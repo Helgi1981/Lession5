@@ -23,8 +23,10 @@ int Fact(int n)
 {
     if (n == 1 || n == 0)
     {
+        Console.WriteLine($"Stop: {n}"); // запуск отладочной строки
         return 1;
     }
+    Console.WriteLine(n); // вывод вызова всех чисел n, согласно рекурсии
     return n * Fact(n - 1);
 }
 
