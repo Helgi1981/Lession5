@@ -31,3 +31,6 @@ int Fact(int n)
 }
 
 Console.Write(Fact(5));
+
+// F11 - шаг с заходом
+// F12 - шаг с обходом
